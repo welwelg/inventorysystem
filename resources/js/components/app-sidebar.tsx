@@ -1,5 +1,5 @@
 import { Link } from '@inertiajs/react';
-import { BookOpen, BookUser, FolderGit2, LayoutGrid, Pill } from 'lucide-react';
+import { BookOpen, BookUser, FolderGit2, LayoutGrid, Pill, Stethoscope } from 'lucide-react';
 import AppLogo from '@/components/app-logo';
 import { NavFooter } from '@/components/nav-footer';
 import { NavMain } from '@/components/nav-main';
@@ -31,6 +31,11 @@ const mainNavItems: NavItem[] = [
         title: 'Patients',
         href: '/admin/patients',
         icon: BookUser,
+    },
+    {
+        title: 'Checkup Records',
+        href: '/admin/checkup',
+        icon: Stethoscope,
     },
 ];
 
